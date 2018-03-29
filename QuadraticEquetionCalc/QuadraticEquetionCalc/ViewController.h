@@ -21,7 +21,7 @@
 
 
 - (IBAction)ClearAll:(UIButton *)sender;
-- (IBAction)Result:(UIButton *)sender;
+- (IBAction)SeeResult:(UIButton *)sender;
 
 @end
 

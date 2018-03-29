@@ -38,7 +38,7 @@
   self.twoRoot.hidden = YES;
 }
 
-- (IBAction)Result:(UIButton *)sender {
+- (IBAction)SeeResult:(UIButton *)sender {
   self.a = [self.aText.text doubleValue];
   self.b = [self.bText.text doubleValue];
   self.c = [self.cText.text doubleValue];
