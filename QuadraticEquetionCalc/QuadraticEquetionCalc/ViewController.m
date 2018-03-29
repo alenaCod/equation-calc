@@ -29,24 +29,20 @@
 }
 
 
-- (IBAction)Clear:(UIButton *)sender {
+- (IBAction)ClearAll:(UIButton *)sender {
   self.aText.text = @"";
   self.bText.text = @"";
   self.cText.text = @"";
   self.notRoot.hidden = YES;
   self.oneRoot.hidden = YES;
   self.twoRoot.hidden = YES;
-//  self.notRoot.text = @"";
-//  self.oneRoot.text = @"";
-//  self.twoRoot.text = @"";
 }
 
 - (IBAction)Result:(UIButton *)sender {
   self.a = [self.aText.text doubleValue];
   self.b = [self.bText.text doubleValue];
   self.c = [self.cText.text doubleValue];
- // double D;
- // if((self.a == 0 && self.b == 0 && self.c == 0) || self.b == 0){
+ 
   if ((self.b == 0 )|| (self.a == 0 && self.c == 0)) {
       self.notRoot.hidden = NO;
       self.oneRoot.hidden = YES;

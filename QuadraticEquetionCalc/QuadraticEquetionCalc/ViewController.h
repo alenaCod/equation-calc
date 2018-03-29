@@ -20,7 +20,7 @@
 @property(nonatomic) double c;
 
 
-- (IBAction)Clear:(UIButton *)sender;
+- (IBAction)ClearAll:(UIButton *)sender;
 - (IBAction)Result:(UIButton *)sender;
 
 @end
