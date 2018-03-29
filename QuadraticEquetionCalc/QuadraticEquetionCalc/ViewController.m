@@ -49,7 +49,7 @@
       self.twoRoot.hidden = YES;
       self.notRoot.text = @"not roots";
         
-        printf("Корней нет.\n");
+        NSLog(@"Корней нет.\n");
   } else if(self.a == 0){
       double x1 = -self.c / self.b;
       self.notRoot.hidden = YES;
@@ -75,7 +75,7 @@
           self.oneRoot.hidden = NO;
           self.twoRoot.hidden = YES;
           self.oneRoot.text = [NSString stringWithFormat:@"D = 0 One root x = %.2lf",x1];
-            printf("Уравнение имеет один корень: %lf\n", x1);
+            NSLog(@"Уравнение имеет один корень: %lf\n", x1);
         }
          else {
            self.notRoot.hidden = NO;
